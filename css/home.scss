@@ -3704,3 +3704,90 @@ section.spec {
 		}
 	}
 }
+
+.account-flex-container {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: url(https://dn-coding-net-production-static.qbox.me/3c9bcbc0-15dc-4a6f-a81f-5112936b7773.jpg) center center / cover no-repeat fixed;
+	height: 100%;
+	.account-container{
+		position: relative;
+		z-index: 1001;
+		width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 30px 40px 40px;
+		border-radius: 10px;
+		background-color: #fff;
+		h2 {
+			margin: 0 0 25px;
+			font-size: 25px;
+			font-weight: 400;
+			text-align: center;
+			color: #323a45;
+		}
+		.account-dis{
+			overflow: hidden;
+			margin-bottom: 15px;
+			.get-password{
+				float: right;
+			}
+		}
+		.account-input{
+			position: relative;
+			height: 68px;
+			input {
+				height: 48px;
+				width: 370px;
+				padding-left: 15px;
+				padding-right: 15px;
+				margin-bottom: 15px;
+				font-size: 16px;
+				border: 1px solid rgba(50,58,69,.2);
+				border-radius: 5px;
+				&:focus {
+					outline: 0;
+					border-color: #499dd6
+				}
+			}
+			button {
+				width: 400px;
+				height: 48px;
+				border: none;
+				background-color: #323a45;
+				color: #fff;
+				font-size: 24px;
+				border-radius: 24px;
+				cursor: pointer;
+				transition: opacity .2s ease;
+				&[disabled] {
+					opacity: .5!important;
+					cursor: not-allowed!important;
+				}
+				&:hover {
+					opacity: .9;
+				}
+			}
+		}
+		.bottom-link {
+			overflow: hidden;
+			margin-top: 15px;
+			text-align: center;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

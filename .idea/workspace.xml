@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e514393-797e-4f98-947c-ba41c0f938ed" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/case-detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/register.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/case.html" afterPath="$PROJECT_DIR$/case.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/home.css" afterPath="$PROJECT_DIR$/css/home.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/home.css.map" afterPath="$PROJECT_DIR$/css/home.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/home.scss" afterPath="$PROJECT_DIR$/css/home.scss" />
@@ -55,13 +55,37 @@
       <file leaf-file-name="home.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="3706" column="0" lean-forward="true" selection-start-line="3706" selection-start-column="0" selection-end-line="3706" selection-end-column="0" />
+            <state relative-caret-position="163">
+              <caret line="3734" column="32" lean-forward="false" selection-start-line="3734" selection-start-column="32" selection-end-line="3734" selection-end-column="32" />
               <folding>
                 <element signature="e#9129#14026#1" expanded="true" />
                 <element signature="e#14043#21585#1" expanded="true" />
                 <element signature="e#73041#73500#1" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="76" column="64" lean-forward="true" selection-start-line="76" selection-start-column="64" selection-end-line="76" selection-end-column="64" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#a#0;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="607">
+              <caret line="76" column="36" lean-forward="false" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,6 +129,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/case-detail.html" />
         <option value="$PROJECT_DIR$/case.html" />
+        <option value="$PROJECT_DIR$/register.html" />
+        <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/css/home.scss" />
       </list>
     </option>
@@ -172,11 +198,6 @@
               <item name="代码" type="b2602c69:ProjectViewProjectNode" />
               <item name="代码" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="代码" type="b2602c69:ProjectViewProjectNode" />
-              <item name="代码" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,12 +268,12 @@
       <workItem from="1504616323998" duration="1000" />
       <workItem from="1504623205258" duration="50000" />
       <workItem from="1504711211718" duration="415000" />
-      <workItem from="1505033120565" duration="4465000" />
+      <workItem from="1505033120565" duration="7624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8032000" />
+    <option name="totallyTimeSpent" value="11191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="0" />
@@ -453,10 +474,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="76" column="64" lean-forward="true" selection-start-line="76" selection-start-column="64" selection-end-line="76" selection-end-column="64" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="76" column="36" lean-forward="false" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="3706" column="0" lean-forward="true" selection-start-line="3706" selection-start-column="0" selection-end-line="3706" selection-end-column="0" />
+        <state relative-caret-position="163">
+          <caret line="3734" column="32" lean-forward="false" selection-start-line="3734" selection-start-column="32" selection-end-line="3734" selection-end-column="32" />
           <folding>
             <element signature="e#9129#14026#1" expanded="true" />
             <element signature="e#14043#21585#1" expanded="true" />
