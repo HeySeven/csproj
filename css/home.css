@@ -2921,7 +2921,7 @@ section.spec {
         float: right; }
     .account-flex-container .account-container .account-input {
       position: relative;
-      height: 68px; }
+      margin-bottom: 15px; }
       .account-flex-container .account-container .account-input.phone-code input {
         margin-right: 140px;
         width: 260px; }
@@ -2950,12 +2950,18 @@ section.spec {
         .account-flex-container .account-container .account-input.phone-code a.btn[disabled=true], .account-flex-container .account-container .account-input.phone-code a.btn[disabled] {
           opacity: 0.5 !important;
           cursor: not-allowed !important; }
+      .account-flex-container .account-container .account-input .help-block {
+        display: block;
+        margin-top: 5px;
+        font-size: 12px; }
+        .account-flex-container .account-container .account-input .help-block.help-block-validation-error {
+          color: #F44336; }
       .account-flex-container .account-container .account-input input {
+        outline: none;
         height: 48px;
         width: 370px;
         padding-left: 15px;
         padding-right: 15px;
-        margin-bottom: 15px;
         font-size: 16px;
         border: 1px solid rgba(50, 58, 69, 0.2);
         border-radius: 5px; }
@@ -2963,6 +2969,7 @@ section.spec {
           outline: 0;
           border-color: #499dd6; }
       .account-flex-container .account-container .account-input button {
+        outline: none;
         width: 400px;
         height: 48px;
         border: none;
